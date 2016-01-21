@@ -141,6 +141,7 @@ BatteryMonitor::PowerSupplyType BatteryMonitor::readPowerSupplyType(const String
             { "DockAC", ANDROID_POWER_SUPPLY_TYPE_DOCK_AC },
             { "USB_HVDCP", ANDROID_POWER_SUPPLY_TYPE_AC },
             { "tps65090-ac", ANDROID_POWER_SUPPLY_TYPE_AC },
+            { "sbs-0-000b", ANDROID_POWER_SUPPLY_TYPE_BATTERY },
             { NULL, 0 },
     };
 
